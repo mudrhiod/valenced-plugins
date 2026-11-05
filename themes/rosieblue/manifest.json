@@ -1,10 +1,10 @@
 {
 	"format": 1,
-	"id": "com.example.themes",
-	"name": "Example Themes",
-	"description": "Example themes for Valenced.",
-	"author": "Your Name",
-	"version": "1.0.1",
+	"id": "mudrhiod.rosieblue",
+	"name": "Rosieblue",
+	"description": "Blue Rosie theme.",
+	"author": "Mudrhiod <807170846497570848>",
+	"version": "1.0.2",
 	"dependencies": {
 		"valenced.api": { "version": ">=1 <2" },
 		"discord": { "version": "*" },
