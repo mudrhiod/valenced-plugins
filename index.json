@@ -52,6 +52,32 @@
         }
       }
     },
+    "mudrhiod.rosieblue": {
+      "name": "Rosieblue",
+      "description": "Blue Rosie theme.",
+      "author": "Mudrhiod <807170846497570848>",
+      "channels": {
+        "latest": "1.0.2"
+      },
+      "versions": {
+        "1.0.2": {
+          "url": "https://valenced.mudrhiod.me/pool/mudrhiod.rosieblue@1.0.2.zip",
+          "sha256": "6e6221021b41730c9f909cf1f5ca2e7ec52d92eab773c954c9d5e7484b8a8277",
+          "size": 50037,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "valenced.api.themes": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "mudrhiod.solar": {
       "name": "Solar",
       "description": "Replaces Discord's icons with ones from the Solar iconset.",
