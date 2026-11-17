@@ -1,7 +1,7 @@
 import { Tokens } from '@valenced/discord/common/tokens'
 
 // ps: give bettuh name for this function <3
-export function accentGradient(...prefixes: string[]): Record<string, string> {
+export function color_(...prefixes: string[]): Record<string, string> {
     return Object.fromEntries(
         prefixes.flatMap((prefix) => {
             const names = Object.keys(Tokens.RawColor)

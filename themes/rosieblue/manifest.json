@@ -4,7 +4,7 @@
 	"name": "Rosieblue",
 	"description": "Blue Rosie theme.",
 	"author": "Mudrhiod <807170846497570848>",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"dependencies": {
 		"valenced.api": { "version": ">=1 <2" },
 		"discord": { "version": "*" },
