@@ -33,7 +33,10 @@ const semanticColors = {
 	MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT: palette.background_secondary,
 	STANDALONE_CHANNEL_CONTENT_BACKGROUND: palette.background_secondary,
 	TABLEROW_BACKGROUND_DEFAULT: palette.background_secondary,
-	MOBILE_EMOJI_BUTTON_BACKGROUND: palette.background_surface,
+	MOBILE_EMOJI_BUTTON_BACKGROUND: `${palette.background_surface}ff`,
+
+	MOBILE_ACTIONSHEET_BACKGROUND: `${palette.background_primary}ff`,
+	MOBILE_ACTIONSHEET_GRADIENT_BACKGROUND_DEFAULT: `${palette.background_surface}ff`,
 
 	CARD_MUTED_BG: palette.background_surface,
 	EMBED_BACKGROUND: "#2B2833",
