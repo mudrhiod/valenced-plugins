@@ -99,7 +99,7 @@
       "description": "Replaces Discord's icons with ones from the Solar iconset.",
       "author": "Mudrhiod <807170846497570848>",
       "channels": {
-        "latest": "1.2.0"
+        "latest": "1.2.1"
       },
       "versions": {
         "1.1.2": {
@@ -122,6 +122,22 @@
           "url": "https://valenced.mudrhiod.me/pool/mudrhiod.solar@1.2.0.zip",
           "sha256": "f3b98dacd7c98578f334683c08f38d5d82a25e759c2906e691fcd06ebab372c7",
           "size": 10508006,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "valenced.api.themes": {
+              "version": "*"
+            }
+          }
+        },
+        "1.2.1": {
+          "url": "https://valenced.mudrhiod.me/pool/mudrhiod.solar@1.2.1.zip",
+          "sha256": "325aa3a4b2bf80fc867ce1f5a9b5dc88f214c60bb036309e7ac8015c68ba1940",
+          "size": 10488842,
           "dependencies": {
             "valenced.api": {
               "version": ">=1 <2"
