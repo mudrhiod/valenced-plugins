@@ -1,0 +1,16 @@
+{
+	"format": 1,
+	"id": "mudrhiod.timezones",
+	"name": "Timezones",
+	"description": "Shows the local timess of users in their profiles.",
+	"author": "Mudrhiod <807170846497570848>",
+	"icon": "ClockIcon",
+	"version": "1.0.0",
+	"dependencies": {
+		"valenced.api": { "version": ">=1 <2" },
+		"discord": { "version": "*" }
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}
